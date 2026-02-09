@@ -1,5 +1,5 @@
 ```markdown
-# Calibrating the Standalone Detection Threshold of Cosmic Chronometers
+# # Calibrating the Standalone Detection Threshold of Cosmic Chronometers
 
 **Author:** Mahammad Jamil Dagustany  
 **Paper:** Calibrating the Standalone Detection Threshold of Cosmic Chronometers: A Monte Carlo Null-Sensitivity Test  
@@ -35,7 +35,7 @@ pip install numpy scipy matplotlib
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/XDaGee8/cosmic-chronometers-sensitivity.git
+git clone [https://github.com/XDaGee8/cosmic-chronometers-sensitivity.git](https://github.com/XDaGee8/cosmic-chronometers-sensitivity.git)
 ```
 
 2. Navigate to the folder:
@@ -51,9 +51,9 @@ python cc_analysis.py
 ## 📉 Results Summary
 As detailed in the accompanying manuscript, the analysis yields:
 
-- **BIC:** (Indicates no statistical preference for $\Lambda$CDM over the Linear Null model).  
-- **False Preference Rate:** (The probability that noise mimics a non-accelerating universe).  
-
+- **BIC:** ≈−1.4 (Indicates that the acceleration signal is currently below the standalone detection threshold).  
+- **False Preference Rate:** ∼40.2% (The probability that noise mimics a non-accelerating universe).
+  
 ## 📜 Citation
 If you use this code or methodology, please cite:
 
