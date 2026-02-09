@@ -1,32 +1,32 @@
 ```markdown
-# Sensitivity of Cosmic Chronometers to Late-Time Acceleration
+# Calibrating the Standalone Detection Threshold of Cosmic Chronometers
 
 **Author:** Mahammad Jamil Dagustany  
-**Paper:** Standalone Sensitivity of Cosmic Chronometers to Late-Time Acceleration: A Monte Carlo Null Test  
+**Paper:** Calibrating the Standalone Detection Threshold of Cosmic Chronometers: A Monte Carlo Null-Sensitivity Test  
 **Status:** Pre-print (2026)
 
 ## 🌌 Overview
-This repository contains the Python analysis pipeline used to quantify the statistical resolving power of Cosmic Chronometer (CC) measurements. 
+This repository contains the Python analysis pipeline used to calibrate the intrinsic curvature-resolving power of Cosmic Chronometer (CC) measurements. 
 
-The analysis performs a model selection duel between:
-1. **$\Lambda$CDM Model** (Standard Cosmology)  
-2. **Linear Null Model** (Constant Expansion rate, $a \propto t$)
+Instead of testing cosmological models directly, this work treats the CC dataset as a **differential curvature detector**. The analysis performs a sensitivity calibration by comparing the standard model against a null-sensitivity boundary:
+1.  **$\Lambda$CDM Model** (Fiducial Ground Truth)
+2.  **Null-Sensitivity Boundary** (Constant Expansion, $a \propto t$)
 
 ## 📊 Key Features
-- **Data Compilation:** Analyzes 31 CC measurements ($0 < z < 2$) from Moresco et al.  
-- **Model Comparison:** Calculates $\chi^2$, AIC, and BIC for both models.  
-- **Monte Carlo Simulation:** Generates 1,000 mock datasets to determine the "False Preference Rate" of the null hypothesis under $\Lambda$CDM ground truth.  
-- **Visualization:** Automatically generates plots comparing the best-fit models against the data.  
+* **Data Compilation:** Analyzes 31 CC measurements ($0 < z < 2$) from Moresco et al.
+* **Detector Response:** Calculates $\chi^2$, AIC, and BIC to determine if acceleration is statistically resolvable.
+* **Monte Carlo Calibration:** Generates 1,000 mock datasets to measure the "False Preference Rate" (the frequency with which noise mimics a non-accelerating universe).
+* **Visualization:** Automatically generates plots comparing the best-fit models against the data.
 
 ## 🚀 Usage
 
 ### Prerequisites
 You need Python 3.x and the following libraries:
-- `numpy`
-- `scipy`
-- `matplotlib`
+* `numpy`
+* `scipy`
+* `matplotlib`
 
-Install via pip:
+You can install them via pip:
 ```bash
 pip install numpy scipy matplotlib
 ```
