@@ -1,5 +1,5 @@
 ```markdown
-# # Calibrating the Standalone Detection Threshold of Cosmic Chronometers
+# Calibrating the Standalone Detection Threshold of Cosmic Chronometers
 
 **Author:** Mahammad Jamil Dagustany  
 **Paper:** Calibrating the Standalone Detection Threshold of Cosmic Chronometers: A Monte Carlo Null-Sensitivity Test  
@@ -61,7 +61,7 @@ If you use this code or methodology, please cite:
 ```bibtex
 @article{Dagustany2026,
   author = {Dagustany, Mahammad Jamil},
-  title = {Standalone Sensitivity of Cosmic Chronometers to Late-Time Acceleration: A Monte Carlo Null Test},
+  title = {Calibrating the Standalone Detection Threshold of Cosmic Chronometers: A Monte Carlo Null-Sensitivity Test},
   journal = {arXiv e-prints},
   year = {2026},
   month = {Feb}
