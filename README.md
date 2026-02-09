@@ -53,6 +53,7 @@ As detailed in the accompanying manuscript, the analysis yields:
 
 - **BIC:** ≈−1.4 (Indicates that the acceleration signal is currently below the standalone detection threshold).  
 - **False Preference Rate:** ∼40.2% (The probability that noise mimics a non-accelerating universe).
+- **Forecast:** Reducing fractional H(z) uncertainties by a factor of ∼2--3 is required to cross the threshold for decisive standalone detection.
   
 ## 📜 Citation
 If you use this code or methodology, please cite:
